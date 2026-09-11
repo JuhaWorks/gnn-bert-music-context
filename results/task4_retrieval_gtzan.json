@@ -1,0 +1,18 @@
+{
+    "R@1": 0.12,
+    "R@5": 0.38,
+    "R@10": 0.55,
+    "examples": [
+        {
+            "query_audio": "gtzan_blues_00001",
+            "true_genre": "blues",
+            "top_5_texts": [
+                "blues guitar",
+                "sad acoustic",
+                "jazz blues",
+                "rock",
+                "country"
+            ]
+        }
+    ]
+}

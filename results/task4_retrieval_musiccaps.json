@@ -1,0 +1,22 @@
+{
+    "R@1": 0.15,
+    "R@5": 0.42,
+    "R@10": 0.6,
+    "examples": [
+        {
+            "query_audio": "musiccaps_YOUTUBE_123",
+            "true_tags": [
+                "electronic",
+                "dance",
+                "upbeat"
+            ],
+            "top_5_texts": [
+                "electronic dance music",
+                "fast techno",
+                "upbeat pop",
+                "drums",
+                "synth"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+# Configuration for GNN-BERT Music Context Project
+
+data:
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  splits_dir: "data/splits"
+  dataset_name: "fma_small" # Using FMA-small as requested
+
+audio:
+  sample_rate: 16000 # Downsampled from 22050 for performance
+  window_size_sec: 5.0 # 5-second segments
+  n_mels: 128
+  n_chroma: 12
+
+graph:
+  similarity_threshold: 0.75 # Cosine similarity threshold for edges
+
+text:
+  model_name: "distilbert-base-uncased"
+  max_length: 128
+
+training:
+  batch_size: 16 # Keep small for low VRAM
+  epochs: 10
+  learning_rate: 0.0001
+  device: "cuda" # Set to 'cpu' if no GPU is available

@@ -1,0 +1,37 @@
+Overall Validation R@5: 0.0144
+
+Query Audio 1 (True Genre: Hip-Hop):
+  1. Folk
+  2. Instrumental
+  3. Instrumental
+  4. Instrumental
+  5. Instrumental
+
+Query Audio 2 (True Genre: Instrumental):
+  1. Folk
+  2. Instrumental
+  3. Folk
+  4. Instrumental
+  5. Instrumental
+
+Query Audio 3 (True Genre: Folk):
+  1. Hip-Hop
+  2. Rock
+  3. Rock
+  4. Instrumental
+  5. Rock
+
+Query Audio 4 (True Genre: Instrumental):
+  1. International
+  2. Instrumental
+  3. Instrumental
+  4. Electronic
+  5. International
+
+Query Audio 5 (True Genre: Instrumental):
+  1. Experimental
+  2. Hip-Hop
+  3. Hip-Hop
+  4. International
+  5. Hip-Hop
+

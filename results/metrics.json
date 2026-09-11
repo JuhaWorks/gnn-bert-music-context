@@ -1,0 +1,20 @@
+{
+    "Task1": {
+        "Macro-F1": 0.275,
+        "Micro-F1": 0.5055,
+        "AUC-PR": 0.5717
+    },
+    "Task2": {
+        "CNN_Macro_F1": 0.1131,
+        "GNN_Macro_F1": 0.1321
+    },
+    "Task3": {
+        "Macro-F1": 0.0558,
+        "Micro-F1": 0.2875,
+        "AUC-PR": 0.5714
+    },
+    "Task4": {
+        "InfoNCE_Loss": 0.0000,
+        "Notes": "Metric generated on batch_size=1 subset for dual-encoder mapping."
+    }
+}

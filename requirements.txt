@@ -1,0 +1,15 @@
+torch>=2.0.0
+torchaudio>=2.0.0
+torch_geometric>=2.3.0
+librosa>=0.10.0
+transformers>=4.30.0
+pandas
+numpy
+scikit-learn
+tqdm
+pyyaml
+jupyter
+matplotlib
+requests
+yt-dlp
+imageio-ffmpeg
